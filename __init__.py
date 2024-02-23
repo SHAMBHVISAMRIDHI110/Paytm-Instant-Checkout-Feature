@@ -1,1 +1,4 @@
-__version__ = '0.0.3'
+__all__ = ['conf']
+from paytm.settings import Configuration
+
+conf = Configuration()
